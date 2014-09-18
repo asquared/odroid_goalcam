@@ -1,0 +1,8 @@
+goalcam: realtime USB-webcam to H.264 encoder for the ODROID-U3
+
+The goal of this project is to build a wireless camera for Exavideo's replay
+system. The idea is to take the MJPEG feed from a USB webcam and decode it 
+using the Multi-Function Codec (MFC) on the ODROID-U3. Then it will be encoded
+to a H.264 stream for high-quality, bandwidth-efficient wireless transmission,
+using the MFC's encoder. Then, with any luck, hockey pucks will be shot at the
+ODROID-webcam combo, resulting in some neat replay footage.
